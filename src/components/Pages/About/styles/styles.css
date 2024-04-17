@@ -1,0 +1,23 @@
+ .mask::after{
+  top:0;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  bottom: 0;
+  background: -webkit-linear-gradient(-95deg, transparent, #0C0C0F);
+  background: linear-gradient(-95deg, transparent, #0C0C0F); 
+}
+
+.mask::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background: -webkit-linear-gradient(95deg,transparent, #0C0C0F) ;
+  background: linear-gradient(95deg,transparent, #0C0C0F) ; 
+}

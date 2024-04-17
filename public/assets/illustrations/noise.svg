@@ -1,0 +1,11 @@
+<svg>
+  <filter id='noiseFilter3'>
+    <feTurbulence 
+      type='fractalNoise' 
+      baseFrequency='0.6' 
+      stitchTiles='stitch'/>
+  </filter>
+  <clipPath id="rounded-clip2">
+        <rect x="0" y="0" width="230" height="70" rx="20" ry="20"/>
+  </clipPath>
+</svg>

@@ -1,0 +1,138 @@
+{
+  "Error": {
+    "title": "Something went wrong!",
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>"
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "Navigation": {
+    "home": "Home",
+    "pathnames": "Pathnames"
+  },
+  "PageLayout": {
+    "links": {
+      "docs": {
+        "title": "Docs",
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/"
+      },
+      "source": {
+        "title": "Source code",
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
+      }
+    }
+  },
+  "Hero": {
+    "welcome": "Welcome",
+    "title": "Fullstack Developer, Tech for business",
+    "description": "Hi there, I'm Matheus – I engineer software that powers up businesses, aligning technology with user needs, ensuring elegance & functionality meet at the sweet spot."
+  },
+  "ShortcutHome": {
+    "tapToStart": "Tap to start",
+    "pressToStart": "Press {commandKey} K to start or scroll →"
+  },
+  "ProjectsSelected": {
+    "title": "Selected projects"
+  },
+  "InternationalExperience": {
+    "title": "Worldwide customer",
+    "description": "Serving clientes across the globe our international each knows no bounds."
+  },
+  "MeetupPlanner": {
+    "title": "VAMOS INOVAR JUNTOS ?",
+    "description": "Agende um bate-papo, vamos criar algo incrível juntos!"
+  },
+  "MyStackText": {
+    "title": "ABOUT INNOVATION STACK",
+    "description": "Harnessing the frameworks and tools defining the next wave of innovation, my work embodies a commitment to excellence in the digital realm."
+  },
+  "TextRevealCard": {
+    "text": "Você tem uma ideia?",
+    "revealText": "Eu trago a inovação tecnológica."
+  },
+  "Commons": {
+    "contactMe": "Contact-me"
+  },
+  "HeroAboutMe": {
+    "name": "Matheus P. Silva",
+    "subtitle": "How to think through protecting your company’s most important assets"
+  },
+  "Head": {
+    "status": "Available for work",
+    "title": "Your Next Full Stack Developer",
+    "description": "I'm Matheus, a creative full stack developer based in Brazil with 10 years of career experience."
+  },
+  "AboutMe": {
+    "title": "What I'm about?",
+    "storyTitle": "MY STORY",
+    "story": "I was born and raised in Cairo, Egypt. Ever since I was a child, I have had a passion for art and design. I was captivated by the vibrant colors and intricate details of the things around me, which inspired me to learn web design, where I delved deeper into the world of UX and product design."
+  },
+  "SoftSkills": {
+    "TechnicalLeadership": "Technical Leadership",
+    "TechnicalLeadershipDescription": "Ability to lead technical teams and guide the development of complex projects.",
+    "InnovativeProblemSolving": "Innovative Problem Solving",
+    "InnovativeProblemSolvingDescription": "Competence to develop creative and effective solutions to challenging problems.",
+    "CustomerCentricApproach": "Customer-Centric Approach",
+    "CustomerCentricApproachDescription": "Focus on user experience, ensuring that customer needs are at the center of the development process.",
+    "CollaborativeTeamwork": "Collaborative Teamwork",
+    "CollaborativeTeamworkDescription": "Ability to work collaboratively in cross-functional teams to achieve common goals.",
+    "EffectiveCommunication": "Effective Communication",
+    "EffectiveCommunicationDescription": "Clear and effective communication, both within the team and with external stakeholders.",
+    "Adaptability": "Adaptability",
+    "AdaptabilityDescription": "Ability to quickly adapt to new technologies and changing environments.",
+    "StrategicThinking": "Strategic Thinking",
+    "StrategicThinkingDescription": "Strategic thinking in project management and decision-making oriented towards results.",
+    "ContinuousLearning": "Continuous Learning",
+    "ContinuousLearningDescription": "Continuous commitment to personal and professional learning and improvement.",
+    "Empathy": "Empathy",
+    "EmpathyDescription": "Ability to understand and share the feelings of others, crucial for user-focused product development.",
+    "TimeManagement": "Time Management",
+    "TimeManagementDescription": "Efficient time management, balancing multiple tasks and deadlines.",
+    "EmotionalIntelligence": "Emotional Intelligence",
+    "EmotionalIntelligenceDescription": "Emotional intelligence to manage and navigate interpersonal relationships at work effectively."
+  },
+  "CurrentlyLearning": {
+    "titleLargeLanguageModels": "Large Language Models (LLMs)",
+    "descriptionLargeLanguageModels": "Diving deep into natural language understanding and generation with models like GPT-3 to explore applications in text analysis, chatbots, and more.",
+    "titleOpenAiAPI": "OpenAI API",
+    "descriptionOpenAiAPI": "Integrating OpenAI's API to leverage cutting-edge AI models for natural language processing, providing powerful solutions in various domains.",
+    "titleMultitenancy": "Multitenancy",
+    "descriptionMultitenancy": "Studying the architecture required to support multitenancy in SaaS products, ensuring efficient resource utilization and data isolation.",
+    "titleSAAS": "Software as a Service (SaaS)",
+    "descriptionSAAS": "Exploring vector databases like Milvus to enable efficient similarity search and indexing at scale, for applications in recommendation systems and AI.",
+    "introWords": "Recently, I've been exploring key emerging technologies like LLM, OpenAI API, and SaaS solutions. These studies are expanding my insights and paving the way for future projects.",
+    "alwaysEvolving": "Always Evolving"
+  },
+  "ContactSection": {
+    "heading": "Let's go work on the project together?",
+    "button": "Contact me"
+  },
+  "WorkExperience": {
+    "title": "Work Experience",
+    "companies": {
+      "AmericasTechnology": "Americas Technology",
+      "WoohooPlus": "WoohooPlus",
+      "Freelancer": "Freelancer",
+      "MOL": "MOL",
+      "Intellective": "Intellective",
+      "AccentureBrasil": "Accenture Brasil",
+      "OrganizeCloudLabs": "Organize Cloud Labs",
+      "IcomonTecnologiaLtda": "Icomon Tecnologia Ltda",
+      "roles": {
+        "TechLeadFrontEnd": "Tech Lead FrontEnd",
+        "FullStackDeveloper": "Full-stack Developer",
+        "SeniorFrontendDeveloper": "Sênior Frontend Developer",
+        "SoftwareEngineering": "Software Engineering",
+        "SoftwareEngineer": "Software Engineer",
+        "FrontEndJunior": "Front end junior"
+      }
+    }
+  },
+  "About": {
+    "TechnologiesSectionTitle": "Technologies",
+    "TechnologiesSectionText": "The most used technologies at the moment. We are all passionate about design and technology, helping companies stand out in an increasingly digital universe."
+  }
+}

@@ -4,6 +4,7 @@ import Provider from "@/provider";
 import { unstable_setRequestLocale } from "next-intl/server";
 import localFont from "next/font/local";
 import { ReactNode } from "react";
+
 import "../styles.css";
 
 const biotif = localFont({

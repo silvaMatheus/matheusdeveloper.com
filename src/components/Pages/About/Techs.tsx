@@ -28,7 +28,7 @@ export default function TechsCarousel({ size, lines }: TechsCarouselProps) {
   const defaultStyle = "bg-gradient-to-b from-zinc-900 to-transparent";
 
   return (
-    <div className="flex max-w-full  flex-col gap-5 overflow-hidden">
+    <div className="flex max-w-full  z-44 flex-col gap-5 overflow-hidden">
       {techsDividedIntoLines.map((line, index) => (
         <div key={index}>
           <InfiniteCarousel

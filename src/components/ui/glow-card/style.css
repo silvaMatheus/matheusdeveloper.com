@@ -16,7 +16,7 @@
     calc(var(--y, 0) * 1px),
     hsl(var(--hue, 14) calc(var(--saturation, 100) * 1%) calc(var(--lightness, 70) * 1%) / var(--bg-spot-opacity, 0.1)), transparent
   );
-  z-index: 99;
+  z-index: 40;
   background-color: var(--backdrop, transparent);
   background-size: calc(100% + (2 * var(--border-size))) calc(100% + (2 * var(--border-size)));
   background-position: 50% 50%;

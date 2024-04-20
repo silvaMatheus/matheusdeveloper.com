@@ -31,7 +31,8 @@ export default function MeetupPlanner() {
                 group-hover/bento:opacity-100 sm:flex"
       >
         <Link
-          href="/contact"
+          href="https://cal.com/matheus-developer?redirect=false"
+          target="__blank"
           className="focus-visible:ring-ring 
                     hover:text-accent-foreground pointer-events-auto
                      inline-flex h-8 items-center justify-center
@@ -65,7 +66,8 @@ export default function MeetupPlanner() {
 
         <div className="flex w-full flex-row items-center ">
           <Link
-            href="/contact"
+            href="https://cal.com/matheus-developer?redirect=false"
+            target="__blank"
             className="pointer-events-auto relative
                         z-10 inline-flex h-14 items-center
                         justify-center  rounded-md text-xs  font-medium

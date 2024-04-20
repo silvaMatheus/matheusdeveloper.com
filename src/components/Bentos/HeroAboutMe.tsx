@@ -10,7 +10,6 @@ export default function HeroAbout() {
         <p className="relative z-20 bg-gradient-to-b bg-clip-text py-8 text-4xl font-bold text-transparent text-white sm:text-7xl">
           {t("name")}
         </p>
-        <p className="w-9/12 text-xl text-white ">{t("subtitle")}</p>
       </div>
     </section>
   );

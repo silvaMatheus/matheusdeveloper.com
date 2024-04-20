@@ -21,7 +21,11 @@ export default function AboutMe() {
           </div>
 
           <span className="text-[#666666]">{t("storyTitle")}</span>
-          <h3 className="text-lg text-[#CCCCCC]">{t("story")}</h3>
+          <h3 className="text-lg sm:text-lg text-[#666666]">
+            {t.rich("story", {
+              br: () => <br />,
+            })}
+          </h3>
         </div>
       </AboutBentContainer>
     </GlowingArticles>

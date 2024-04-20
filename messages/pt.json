@@ -1,52 +1,141 @@
 {
-  "IndexPage": {
-    "title": "next-intl Beispiel",
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
-  },
-  "PathnamesPage": {
-    "title": "Pfadnamen",
-    "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>"
-  },
   "Error": {
-    "title": "Etwas ist schief gelaufen!",
-    "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>"
+    "title": "Algo deu errado!",
+    "description": "<p>Infelizmente, encontramos um erro.</p><p>Você pode tentar <retry>recarregar a página</retry> que estava visitando.</p>"
   },
   "NotFoundPage": {
-    "title": "Seite nicht gefunden",
-    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
-  },
-  "LocaleLayout": {
-    "title": "next-intl Beispiel"
-  },
-  "LocaleSwitcher": {
-    "label": "Sprache ändern",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+    "title": "Página não encontrada",
+    "description": "Por favor, verifique o endereço na barra do navegador ou use a navegação para ir para uma página conhecida."
   },
   "Navigation": {
-    "home": "Start",
-    "pathnames": "Pfadnamen"
+    "home": "Início",
+    "pathnames": "Caminhos"
   },
   "PageLayout": {
     "links": {
       "docs": {
-        "title": "Dokumentation",
-        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
+        "title": "Documentos",
+        "description": "Saiba mais sobre o next-intl nos documentos oficiais.",
         "href": "https://next-intl-docs.vercel.app/"
       },
       "source": {
-        "title": "Quellcode",
-        "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
+        "title": "Código Fonte",
+        "description": "Navegue pelo código fonte deste exemplo no GitHub.",
         "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router"
       }
     }
   },
   "Hero": {
-    "welcome": "Oi",
-    "title": "Fullstack Developer, Tech for business",
-    "description": "Hi there, I&apos;m Matheus – I engineer software that powers up businesses, aligning technology with user needs, ensuring elegance & functionality meet at the sweet spot."
+    "welcome": "Bem-vindo",
+    "title": "Desenvolvedor Fullstack, Tecnologia para negócios",
+    "description": "Oi, sou o Matheus – Eu engenho softwares que potencializam negócios, alinhando tecnologia com as necessidades dos usuários, garantindo que elegância e funcionalidade se encontrem no ponto ideal."
   },
   "ShortcutHome": {
-    "tapToStart": "Toque para começar",
+    "tapToStart": "Toque para iniciar",
     "pressToStart": "Pressione {commandKey} K para começar ou role →"
+  },
+  "ProjectsSelected": {
+    "title": "Projetos selecionados"
+  },
+  "InternationalExperience": {
+    "title": "Cliente mundial",
+    "description": "Atendendo clientes ao redor do globo, nosso alcance internacional não conhece limites."
+  },
+  "MeetupPlanner": {
+    "title": "VAMOS INOVAR JUNTOS?",
+    "description": "Agende um bate-papo, vamos criar algo incrível juntos!"
+  },
+  "MyStackText": {
+    "title": "SOBRE A PILHA DE INOVAÇÃO",
+    "description": "Dominando as frameworks e ferramentas que definem a próxima onda de inovação, meu trabalho incorpora um compromisso com a excelência no âmbito digital."
+  },
+  "TextRevealCard": {
+    "text": "Você tem uma ideia?",
+    "revealText": "Eu trago a inovação tecnológica."
+  },
+  "Commons": {
+    "contactMe": "Contate-me"
+  },
+  "HeroAboutMe": {
+    "name": "Matheus P. Silva",
+    "subtitle": "Como pensar na proteção dos ativos mais importantes da sua empresa"
+  },
+  "Head": {
+    "status": "Disponível para trabalho",
+    "title": "Seu próximo Desenvolvedor Full Stack",
+    "description": "Sou o Matheus, um desenvolvedor full stack criativo, baseado no Brasil, com 10 anos de experiência de carreira."
+  },
+  "AboutMe": {
+    "title": "Sobre o que sou?",
+    "storyTitle": "MINHA HISTÓRIA",
+    "story": "Olá! Meu nome é Matheus Silva, e sou um Desenvolvedor Full Stack do Brasil, cuja paixão pela programação começou aos 12 anos. Inicialmente, meu envolvimento com a tecnologia era casual, trabalhando com PHP e WordPress até os 16 anos.<br></br><br></br>Foi nessa idade que decidi focar seriamente em minha carreira, migrando para o ecossistema JavaScript, onde me especializei em ferramentas como React, NextJs e NodeJs. Este foco me permitiu desenvolver soluções inovadoras e escaláveis, transformando ideias complexas em produtos digitais impactantes.<br></br><br></br>Hoje, aos 25 anos, minha carreira é um reflexo do meu compromisso com a inovação e qualidade técnica. Continuo explorando novas tecnologias e metodologias para melhorar os sistemas que desenvolvo, sempre com o objetivo de superar as expectativas do mercado. Fora do trabalho, sou apaixonado por jogos para um jogador, música eclética e viagens, que enriquecem minha vida com novas experiências e perspectivas."
+  },
+  "SoftSkills": {
+    "TechnicalLeadership": "Liderança Técnica",
+    "TechnicalLeadershipDescription": "Especialização em liderar equipes técnicas e orientar o desenvolvimento de projetos de software complexos.",
+    "StrategicThinking": "Pensamento Estratégico",
+    "StrategicThinkingDescription": "Habilidades avançadas de planejamento estratégico e tomada de decisão focadas em alcançar objetivos de negócios.",
+    "EffectiveCommunication": "Comunicação Eficaz",
+    "EffectiveCommunicationDescription": "Proficiência em articular conceitos técnicos e estratégias para equipes interfuncionais e partes interessadas.",
+    "CollaborativeTeamwork": "Trabalho em Equipe Colaborativo",
+    "CollaborativeTeamworkDescription": "Capacidade comprovada de formar e liderar equipes interfuncionais em direção a objetivos comuns em ambientes dinâmicos.",
+    "EmotionalIntelligence": "Inteligência Emocional",
+    "EmotionalIntelligenceDescription": "Habilidade em nutrir ambientes de equipe e fomentar relações profissionais através de alta inteligência emocional."
+  },
+  "CurrentlyLearning": {
+    "titleLargeLanguageModels": "Modelos de Linguagem de Grande Escala (LLMs)",
+    "descriptionLargeLanguageModels": "Aprofundando no entendimento e geração de linguagem natural com modelos como GPT-3 para explorar aplicações em análise de texto, chatbots e mais.",
+    "titleOpenAiAPI": "API da OpenAI",
+    "descriptionOpenAiAPI": "Integrando a API da OpenAI para utilizar modelos de IA de ponta para processamento de linguagem natural, oferecendo soluções poderosas em diversos domínios.",
+    "titleMultitenancy": "Multilocação",
+    "descriptionMultitenancy": "Estudando a arquitetura necessária para suportar multilocação em produtos SaaS, garantindo utilização eficiente de recursos e isolamento de dados.",
+    "titleSAAS": "Software como Serviço (SaaS)",
+    "descriptionSAAS": "Explorando bases de dados vetoriais como Milvus para possibilitar busca por similaridade e indexação eficazes em grande escala, para aplicações em sistemas de recomendação e IA.",
+    "introWords": "Recentemente, tenho explorado tecnologias emergentes importantes como LLM, API da OpenAI e soluções SaaS. Esses estudos estão expandindo minhas percepções e pavimentando o caminho para futuros projetos.",
+    "alwaysEvolving": "Sempre Evoluindo"
+  },
+  "ContactSection": {
+    "heading": "Vamos trabalhar juntos no projeto?",
+    "TalkMe": "Fale Comigo"
+  },
+  "WorkExperience": {
+    "title": "Experiência Profissional",
+    "companies": {
+      "AmericasTechnology": "Americas Technology",
+      "WoohooPlus": "WoohooPlus",
+      "Freelancer": "Freelancer",
+      "MOL": "MOL",
+      "Intellective": "Intellective",
+      "AccentureBrasil": "Accenture Brasil",
+      "OrganizeCloudLabs": "Organize Cloud Labs",
+      "IcomonTecnologiaLtda": "Icomon Tecnologia Ltda",
+      "roles": {
+        "TechLeadFrontEnd": "Líder Técnico Front-End",
+        "FullStackDeveloper": "Desenvolvedor Full-stack",
+        "SeniorFrontendDeveloper": "Desenvolvedor Front-End Sênior",
+        "SoftwareEngineer": "Engenheiro de Software",
+        "FrontEndJunior": "Desenvolvedor Front-End Júnior"
+      }
+    }
+  },
+  "About": {
+    "TechnologiesSectionTitle": "Tecnologias",
+    "TechnologiesSectionText": "A tecnologia mais usada no momento. Sou apaixonado por design e tecnologia, ajudando empresas a se destacarem num universo cada vez mais digital."
+  },
+  "ContactMe": {
+    "EmailLabel": "Email",
+    "EmailPlaceholder": "Email",
+    "NameLabel": "Nome",
+    "NamePlaceholder": "Nome",
+    "MessageLabel": "Mensagem",
+    "MessagePlaceholder": "Digite sua mensagem aqui.",
+    "SubmitButton": "Enviar",
+    "OrText": "OU",
+    "TalkMe": "Fale Comigo",
+    "ScheduleCallButton": "Agendar uma chamada"
+  },
+  "Footer": {
+    "companyName": "Matheus Silva",
+    "rights": "Todos os direitos reservados."
   }
 }

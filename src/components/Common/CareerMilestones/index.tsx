@@ -8,13 +8,13 @@ export default function CareerMilestones({
 }: WorkExperienceProps) {
   return (
     <div className="flex items-center justify-between gap-3 ">
-      <div className="bg-background-3 relative h-10 w-10 rounded-lg">
+      <div className="bg-background-3 relative h-10 w-10 rounded-lg grayscale">
         <Image fill src={logo} alt="logo" />
       </div>
 
-      <div className="flex w-full justify-between gap-5 pr-5 ">
-        <div className="text-body3 font-bold">{company}</div>
-        <div className="text-body3 text-text-2 ">{role}</div>
+      <div className="flex w-full justify-between gap-5 sm:pr-5 ">
+        <div className="text-sm font-bold">{company}</div>
+        <div className="text-sm whitespace-nowrap	text-end">{role}</div>
       </div>
     </div>
   );

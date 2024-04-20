@@ -68,31 +68,19 @@
   "AboutMe": {
     "title": "What I'm about?",
     "storyTitle": "MY STORY",
-    "story": "I was born and raised in Cairo, Egypt. Ever since I was a child, I have had a passion for art and design. I was captivated by the vibrant colors and intricate details of the things around me, which inspired me to learn web design, where I delved deeper into the world of UX and product design."
+    "story": "Hello! My name is Matheus Silva, and I am a Full Stack Developer from Brazil, whose passion for programming began at the age of 12. Initially, my involvement with technology was casual, working with PHP and WordPress until I was 16.<br></br><br></br>It was at that age that I decided to seriously focus on my career, transitioning to the JavaScript ecosystem, where I specialized in tools such as React, NextJs, and NodeJs. This focus allowed me to develop innovative and scalable solutions, transforming complex ideas into impactful digital products.<br></br><br></br>Today, at 25, my career is a reflection of my commitment to innovation and technical quality. I continue to explore new technologies and methodologies to improve the systems I develop, always with the goal of exceeding market expectations. Outside of work, I am passionate about single-player games, eclectic music, and traveling, which enrich my life with new experiences and perspectives."
   },
   "SoftSkills": {
     "TechnicalLeadership": "Technical Leadership",
-    "TechnicalLeadershipDescription": "Ability to lead technical teams and guide the development of complex projects.",
-    "InnovativeProblemSolving": "Innovative Problem Solving",
-    "InnovativeProblemSolvingDescription": "Competence to develop creative and effective solutions to challenging problems.",
-    "CustomerCentricApproach": "Customer-Centric Approach",
-    "CustomerCentricApproachDescription": "Focus on user experience, ensuring that customer needs are at the center of the development process.",
-    "CollaborativeTeamwork": "Collaborative Teamwork",
-    "CollaborativeTeamworkDescription": "Ability to work collaboratively in cross-functional teams to achieve common goals.",
-    "EffectiveCommunication": "Effective Communication",
-    "EffectiveCommunicationDescription": "Clear and effective communication, both within the team and with external stakeholders.",
-    "Adaptability": "Adaptability",
-    "AdaptabilityDescription": "Ability to quickly adapt to new technologies and changing environments.",
+    "TechnicalLeadershipDescription": "Expertise in leading technical teams and steering the development of complex software projects.",
     "StrategicThinking": "Strategic Thinking",
-    "StrategicThinkingDescription": "Strategic thinking in project management and decision-making oriented towards results.",
-    "ContinuousLearning": "Continuous Learning",
-    "ContinuousLearningDescription": "Continuous commitment to personal and professional learning and improvement.",
-    "Empathy": "Empathy",
-    "EmpathyDescription": "Ability to understand and share the feelings of others, crucial for user-focused product development.",
-    "TimeManagement": "Time Management",
-    "TimeManagementDescription": "Efficient time management, balancing multiple tasks and deadlines.",
+    "StrategicThinkingDescription": "Advanced strategic planning and decision-making skills with a focus on achieving business objectives.",
+    "EffectiveCommunication": "Effective Communication",
+    "EffectiveCommunicationDescription": "Proficiency in articulating technical concepts and strategies to cross-functional teams and stakeholders.",
+    "CollaborativeTeamwork": "Collaborative Teamwork",
+    "CollaborativeTeamworkDescription": "Proven ability to forge and lead cross-functional teams towards common goals in dynamic environments.",
     "EmotionalIntelligence": "Emotional Intelligence",
-    "EmotionalIntelligenceDescription": "Emotional intelligence to manage and navigate interpersonal relationships at work effectively."
+    "EmotionalIntelligenceDescription": "Skilled in nurturing team environments and fostering professional relationships through high emotional intelligence."
   },
   "CurrentlyLearning": {
     "titleLargeLanguageModels": "Large Language Models (LLMs)",
@@ -108,7 +96,7 @@
   },
   "ContactSection": {
     "heading": "Let's go work on the project together?",
-    "button": "Contact me"
+    "TalkMe": "Talk Me"
   },
   "WorkExperience": {
     "title": "Work Experience",
@@ -122,17 +110,32 @@
       "OrganizeCloudLabs": "Organize Cloud Labs",
       "IcomonTecnologiaLtda": "Icomon Tecnologia Ltda",
       "roles": {
-        "TechLeadFrontEnd": "Tech Lead FrontEnd",
+        "TechLeadFrontEnd": "Tech Lead Front-End",
         "FullStackDeveloper": "Full-stack Developer",
-        "SeniorFrontendDeveloper": "Sênior Frontend Developer",
-        "SoftwareEngineering": "Software Engineering",
+        "SeniorFrontendDeveloper": "Senior Front-End Developer",
         "SoftwareEngineer": "Software Engineer",
-        "FrontEndJunior": "Front end junior"
+        "FrontEndJunior": "Junior Front-End Developer"
       }
     }
   },
   "About": {
     "TechnologiesSectionTitle": "Technologies",
-    "TechnologiesSectionText": "The most used technologies at the moment. We are all passionate about design and technology, helping companies stand out in an increasingly digital universe."
+    "TechnologiesSectionText": "The most used technology at the moment. I am passionate about design and technology, helping companies stand out in an increasingly digital universe."
+  },
+  "ContactMe": {
+    "EmailLabel": "Email",
+    "EmailPlaceholder": "Email",
+    "NameLabel": "Name",
+    "NamePlaceholder": "Name",
+    "MessageLabel": "Message",
+    "MessagePlaceholder": "Type your message here.",
+    "SubmitButton": "Submit",
+    "OrText": "OR",
+    "TalkMe": "Talk me",
+    "ScheduleCallButton": "Schedule a call"
+  },
+  "Footer": {
+    "companyName": "Matheus Silva",
+    "rights": "All rights reserved."
   }
 }

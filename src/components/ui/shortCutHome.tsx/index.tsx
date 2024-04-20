@@ -21,7 +21,7 @@ const ShortcutHome: FC = () => {
   const commandKey = isMac ? "⌘" : "ctrl";
 
   return (
-    <Button variant={"ghost"} onClick={toggleCommandBar}>
+    <Button variant={"secondary"} onClick={toggleCommandBar}>
       {isMobile ? "Tap To Start" : `Press To Start ${isMac ? "⌘" : "Ctrl"}`}
     </Button>
   );

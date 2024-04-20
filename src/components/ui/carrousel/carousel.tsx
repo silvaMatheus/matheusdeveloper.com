@@ -1,22 +1,19 @@
 "use client";
-import { EmblaOptionsType } from "embla-carousel";
 import Autoplay from "embla-carousel-autoplay";
 import useEmblaCarousel from "embla-carousel-react";
 import React, { ReactNode } from "react";
-import { DotButton, useDotButton } from "./carouselDotButton";
 
 type PropType = {
   slides: ReactNode[];
-  options?: EmblaOptionsType;
   dotButton?: boolean;
 };
 
 const EmblaCarousel: React.FC<PropType> = (props) => {
-  const { slides, options, dotButton } = props;
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()]);
-
-  const { selectedIndex, scrollSnaps, onDotButtonClick } =
-    useDotButton(emblaApi);
+  const { slides, dotButton } = props;
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { align: "start", loop: true },
+    [Autoplay()]
+  );
 
   return (
     <section className="embla flex h-full w-full flex-col gap-5">
@@ -33,7 +30,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
         </div>
       </div>
 
-      {dotButton && (
+      {/* {dotButton && (
         <div className="mt-5 flex w-full items-center justify-center ">
           <div className="w-8/12 rounded-md bg-[#1f1f1f]">
             <div className="embla__dots">
@@ -49,7 +46,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             </div>
           </div>
         </div>
-      )}
+      )} */}
     </section>
   );
 };

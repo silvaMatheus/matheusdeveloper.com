@@ -28,8 +28,6 @@ export function SwitchLanguage() {
   ];
 
   function onSelectChange(locale: string) {
-    console.log(locale);
-
     startTransition(() => {
       router.replace(
         // @ts-expect-error -- TypeScript will validate that only known `params`

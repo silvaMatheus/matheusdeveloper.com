@@ -16,21 +16,21 @@ export default function BentoAbout() {
   const bentos: BentosProps[] = [
     {
       component: <Head />,
-      row: "sm:row-span-4",
+      row: "sm:row-span-4 ",
       col: "col-span-4 sm:col-span-6",
       order: "max-sm:order-1",
     },
     {
       component: <MyPhotos />,
-      row: "sm:row-span-4",
-      col: "col-span-2 sm:col-span-3",
+      row: "sm:row-span-4 ",
+      col: "col-span-4 sm:col-span-3",
       order: "max-sm:order-3",
     },
     {
       component: <MyNetwork />,
-      row: "sm:row-span-4",
-      col: "col-span-2 sm:col-span-3",
-      order: " max-sm:order-3",
+      row: "sm:row-span-4 h-48",
+      col: "col-span-4 sm:col-span-3",
+      order: "max-sm:order-3",
     },
     {
       component: <AboutMe />,
@@ -44,7 +44,6 @@ export default function BentoAbout() {
       col: "col-span-4 sm:col-span-6",
       order: "max-sm:order-4",
     },
-
     {
       component: <WorkExperience />,
       row: "sm:row-span-7",
@@ -54,9 +53,9 @@ export default function BentoAbout() {
   ];
 
   return (
-    <div className="flex w-full flex-col gap-20 p-5 sm:w-9/12">
+    <div className="flex w-full flex-col sm:gap-20 p-5 sm:w-9/12">
       <div
-        className={`grid h-auto w-full  grid-cols-4 gap-5 text-white sm:h-screen sm:grid-cols-12 sm:grid-rows-12`}
+        className={`grid h-auto w-full grid-cols-4 gap-10 sm:gap-5 text-white sm:h-screen sm:grid-cols-12 sm:grid-rows-12`}
       >
         {bentos.map((bento, index) => {
           return (

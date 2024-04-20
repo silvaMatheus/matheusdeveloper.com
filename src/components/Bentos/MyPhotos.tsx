@@ -17,13 +17,13 @@ export default function MyPhotos() {
       >
         <Carousel
           plugins={[plugin.current]}
-          className="h-full w-full max-w-xs"
+          className="h-full w-full"
           onMouseEnter={plugin.current.stop}
           onMouseLeave={plugin.current.reset}
         >
-          <CarouselContent className="m-0 h-full w-full">
+          <CarouselContent className="h-full w-full">
             {images.map((name, index) => (
-              <CarouselItem key={index} className="p-0">
+              <CarouselItem key={index} className="w-full">
                 <div className="relative inline-block h-full w-full">
                   <div className="relative h-full w-full">
                     <Image
@@ -39,6 +39,8 @@ export default function MyPhotos() {
                       blurDataURL="d"
                       style={{
                         objectFit: "cover",
+                        // width: "100%",
+                        // height: "auto",
                         objectPosition: "center",
                       }}
                     />

@@ -10,12 +10,12 @@ export default function WorkExperience() {
     {
       company: t("companies.AmericasTechnology"),
       role: t("companies.roles.TechLeadFrontEnd"),
-      logo: "/assets/logos/logo.svg",
+      logo: "https://media.licdn.com/dms/image/D4D0BAQE9vFujlbYTQA/company-logo_200_200/0/1693781511295/americas_technology_logo?e=1721865600&v=beta&t=M2tgie7q-MexzPtrNZTqF5zdxxLCmCdmVMw7MqM8nhk",
     },
     {
       company: t("companies.WoohooPlus"),
       role: t("companies.roles.TechLeadFrontEnd"),
-      logo: "/assets/logos/logo.svg",
+      logo: "https://media.licdn.com/dms/image/D4D0BAQEFqh61kTra3A/company-logo_200_200/0/1693781736217/woohooplus_logo?e=1721865600&v=beta&t=K7ftiUgOIFhqjSonujKr64fhrqhoudG5REJlLcRwgcw",
     },
     {
       company: t("companies.Freelancer"),
@@ -25,27 +25,22 @@ export default function WorkExperience() {
     {
       company: t("companies.MOL"),
       role: t("companies.roles.SeniorFrontendDeveloper"),
-      logo: "/assets/logos/logo.svg",
+      logo: "https://media.licdn.com/dms/image/C4D0BAQHzSc5mIUJj9w/company-logo_200_200/0/1662387445344/mediao_online_logo?e=1721865600&v=beta&t=9dJF2GPZaJ0WeAydkVDpgjzZVfw2GM3ROHeYLsTBDHI",
     },
     {
       company: t("companies.Intellective"),
       role: t("companies.roles.FullStackDeveloper"),
-      logo: "/assets/logos/logo.svg",
+      logo: "https://media.licdn.com/dms/image/C510BAQFRu9Tf8wTByg/company-logo_200_200/0/1631334027600?e=1721865600&v=beta&t=T1OnEZvVC4bDAxYkTEGwmmQfXajp9xIb7_-duKdtXJw",
     },
     {
       company: t("companies.AccentureBrasil"),
-      role: t("companies.roles.SoftwareEngineering"),
-      logo: "/assets/logos/logo.svg",
+      role: t("companies.roles.SoftwareEngineer"),
+      logo: "https://media.licdn.com/dms/image/D4D0BAQGLnT9haDSJcQ/company-logo_200_200/0/1685540823387/accenturebrasil_logo?e=1721865600&v=beta&t=OdruYj2TqjUlZgyTyN279s5SaxJ1mCEzTqGvC97D9ek",
     },
     {
       company: t("companies.OrganizeCloudLabs"),
       role: t("companies.roles.SoftwareEngineer"),
-      logo: "/assets/logos/logo.svg",
-    },
-    {
-      company: t("companies.IcomonTecnologiaLtda"),
-      role: t("companies.roles.FrontEndJunior"),
-      logo: "/assets/logos/logo.svg",
+      logo: "https://yt3.googleusercontent.com/ytc/AIdro_lFdeA3L3I3AL_twlLdIVFwGgy4qFPkR50tO2jM4FFFqus=s176-c-k-c0x00ffffff-no-rj",
     },
   ];
 

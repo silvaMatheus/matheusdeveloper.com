@@ -6,23 +6,25 @@ import { useState } from "react";
 import { SwitchLanguage } from "./SwitchLanguage";
 
 export default function DesktopNavigation() {
-  let pathname = usePathname() || "/";
+  const segments = usePathname().split("/").filter(Boolean);
+  const pathname = segments.length > 1 ? `/${segments[1]}` : "/";
 
   const [hoveredPath, setHoveredPath] = useState(pathname);
 
   const navItems = [
     { path: "/", name: "Home" },
     { path: "/about", name: "About" },
-    { path: "/projects", name: "Projects" },
-    { path: "/articles", name: "Articles" },
-    { path: "/uses", name: "Uses" },
+    // { path: "/projects", name: "Projects" },
+    // { path: "/articles", name: "Articles" },
+    // { path: "/uses", name: "Uses" },
   ];
 
   return (
-    <div className="relative z-[100] flex  w-full items-center justify-start gap-2">
+    <div className="relative z-[100] flex  w-full items-center justify-center gap-2">
       {navItems.map((item, index) => {
         const isActive =
-          item.path === pathname || (pathname === "" && item.path === "/");
+          item.path === pathname || (pathname === "/" && item.path === "/");
+
         return (
           <Link
             key={item.path}

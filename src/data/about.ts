@@ -5,16 +5,10 @@ import { WorkExperienceProps } from "@/types/WorkExperience.types";
 import {
   EnvelopeOpenIcon,
   GitHubLogoIcon,
-  InstagramLogoIcon,
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 
 const SocialNetworks: SocialNetworksProps[] = [
-  {
-    name: "instagram",
-    icon: InstagramLogoIcon,
-    href: "https://www.instagram.com/matheus__silva98/",
-  },
   {
     name: "github",
     icon: GitHubLogoIcon,
@@ -25,16 +19,6 @@ const SocialNetworks: SocialNetworksProps[] = [
     icon: LinkedInLogoIcon,
     href: "https://www.linkedin.com/in/matheus-silva-064472157",
   },
-  // {
-  //     name: 'linkedin',
-  //     icon: LinkedInLogoIcon,
-  //     href: 'https://www.linkedin.com/in/matheus-silva-064472157',
-  // },
-  // {
-  //     name: 'linkedin',
-  //     icon: LinkedInLogoIcon,
-  //     href: 'https://www.linkedin.com/in/matheus-silva-064472157',
-  // },
   {
     name: "email",
     icon: EnvelopeOpenIcon,

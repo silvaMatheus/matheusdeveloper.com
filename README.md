@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Portfolio Cover Image" src="https://github.com/silvaMatheus/matheusdeveloper.com/tree/main/public/fullLogo.png">
+  <img alt="Portfolio Cover Image" src="public/fullLogo.png">
 </p>
 
 <h1 align="center">

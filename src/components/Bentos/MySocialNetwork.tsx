@@ -33,25 +33,16 @@ export default function MyNetwork() {
     },
   ];
   return (
-    <div className="h-full w-full ">
+    <div className="h-full w-full">
       <div className="grid h-full w-full grid-cols-2 grid-rows-2 sm:gap-5 gap-2">
         {SocialNetworks.map((social, index) => (
           <Link
             key={index}
             href={social.href}
             target="__blank"
-            className="flex
-                        cursor-pointer
-                         h-full w-full items-center
-                         justify-center
-                         rounded-xl
-                         bg-[#171717]
-                         "
+            className="flex cursor-pointer h-full w-full items-center justify-center rounded-xl bg-[#171717]"
           >
-            <div
-              className="relative flex h-full w-full
-                     flex-col items-center justify-center  text-3xl grayscale"
-            >
+            <div className="relative flex h-full w-full flex-col items-center justify-center text-3xl grayscale">
               {social.icon}
             </div>
 

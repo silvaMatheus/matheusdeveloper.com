@@ -16,19 +16,19 @@ export default function BentoAbout() {
   const bentos: BentosProps[] = [
     {
       component: <Head />,
-      row: "sm:row-span-4 ",
+      row: "sm:row-span-4",
       col: "col-span-4 sm:col-span-6",
       order: "max-sm:order-1",
     },
     {
       component: <MyPhotos />,
-      row: "sm:row-span-4 ",
+      row: "sm:row-span-4",
       col: "col-span-4 sm:col-span-3",
       order: "max-sm:order-3",
     },
     {
       component: <MyNetwork />,
-      row: "sm:row-span-4 h-48",
+      row: "sm:row-span-4 max-sm:h-48",
       col: "col-span-4 sm:col-span-3",
       order: "max-sm:order-3",
     },

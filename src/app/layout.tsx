@@ -29,8 +29,8 @@ export async function generateMetadata({}: Omit<
     alternates: {
       canonical: "/",
       languages: {
-        "en-Us": "/en",
-        "pt-Br": "/pt",
+        en: "/en",
+        pt: "/pt",
       },
     },
     openGraph: {

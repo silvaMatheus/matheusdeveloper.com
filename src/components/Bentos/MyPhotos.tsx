@@ -5,7 +5,7 @@ import { useRef } from "react";
 import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
 
 export default function MyPhotos() {
-  const images = ["Cyber", "LoveFood", "myLove", "MyRoom"];
+  const images = ["Cyber", "LoveFood", "MyRoom"];
   const plugin = useRef(
     Autoplay({ delay: 2000, stopOnInteraction: true, loop: true })
   );

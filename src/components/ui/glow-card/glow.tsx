@@ -19,7 +19,7 @@ export default function GlowingArticles({ children }: { children: ReactNode }) {
   }, []);
 
   return (
-    <main className="h-full w-full rounded-[14px] border border-[#222229]">
+    <main className="h-full w-full rounded-[14px] border border-[#222229] overflow-hidden">
       <div className="h-full w-full rounded-[14px]" data-glow>
         <div data-glow></div>
         {children}

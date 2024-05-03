@@ -28,7 +28,7 @@
   "Hero": {
     "welcome": "Bem-vindo",
     "title": "Desenvolvedor Fullstack, Tecnologia para negócios",
-    "description": "Oi, sou o Matheus – Eu engenho softwares que potencializam negócios, alinhando tecnologia com as necessidades dos usuários, garantindo que elegância e funcionalidade se encontrem no ponto ideal."
+    "description": "Olá, sou Matheus – Desenvolvo softwares que potencializm os negócios, alinhando a tecnologia com as necessidades do usuário, garantindo que elegância e funcionalidade se encontrem no ponto ideal."
   },
   "ShortcutHome": {
     "tapToStart": "Toque para iniciar",
@@ -38,8 +38,8 @@
     "title": "Projetos selecionados"
   },
   "InternationalExperience": {
-    "title": "Cliente mundial",
-    "description": "Atendendo clientes ao redor do globo, nosso alcance internacional não conhece limites."
+    "title": "Clientes internacionais",
+    "description": "Atendendo clientes ao redor do globo, meu alcance internacional não conhece limites."
   },
   "MeetupPlanner": {
     "title": "VAMOS INOVAR JUNTOS?",
@@ -63,7 +63,7 @@
   "Head": {
     "status": "Disponível para trabalho",
     "title": "Seu próximo Desenvolvedor Full Stack",
-    "description": "Sou o Matheus, um desenvolvedor full stack criativo, baseado no Brasil, com 10 anos de experiência de carreira."
+    "description": "Sou o Matheus, um desenvolvedor full stack criativo, com 10 anos de experiência de carreira."
   },
   "AboutMe": {
     "title": "Sobre o que sou?",
@@ -71,6 +71,7 @@
     "story": "Olá! Meu nome é Matheus Silva, e sou um Desenvolvedor Full Stack do Brasil, cuja paixão pela programação começou aos 12 anos. Inicialmente, meu envolvimento com a tecnologia era casual, trabalhando com PHP e WordPress até os 16 anos.<br></br><br></br>Foi nessa idade que decidi focar seriamente em minha carreira, migrando para o ecossistema JavaScript, onde me especializei em ferramentas como React, NextJs e NodeJs. Este foco me permitiu desenvolver soluções inovadoras e escaláveis, transformando ideias complexas em produtos digitais impactantes.<br></br><br></br>Hoje, aos 25 anos, minha carreira é um reflexo do meu compromisso com a inovação e qualidade técnica. Continuo explorando novas tecnologias e metodologias para melhorar os sistemas que desenvolvo, sempre com o objetivo de superar as expectativas do mercado. Fora do trabalho, sou apaixonado por jogos para um jogador, música eclética e viagens, que enriquecem minha vida com novas experiências e perspectivas."
   },
   "SoftSkills": {
+    "Title:": "O que eu faço de melhor?",
     "TechnicalLeadership": "Liderança Técnica",
     "TechnicalLeadershipDescription": "Especialização em liderar equipes técnicas e orientar o desenvolvimento de projetos de software complexos.",
     "StrategicThinking": "Pensamento Estratégico",

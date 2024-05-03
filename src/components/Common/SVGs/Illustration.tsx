@@ -1,16 +1,17 @@
 "use client";
 import { motion } from "framer-motion";
+import "./style.css";
 
 export default function Illustration() {
   const width = 795;
   const height = 439;
   const levitation = {
-    y: [0, -10, 0], // Reduzindo a amplitude do movimento para torná-lo menos bruto
+    y: [0, -10, 0],
     transition: {
       y: {
         repeat: Infinity,
         repeatType: "reverse",
-        duration: 4, // Aumentando a duração para suavizar a animação
+        duration: 4,
         ease: "easeInOut",
       },
     },
@@ -89,7 +90,8 @@ export default function Illustration() {
               shapeRendering="crispEdges"
             />
           </g>
-          <motion.g animate={levitation}>
+
+          <g className="element">
             <g
               transform="
                translate(0 30)
@@ -509,8 +511,9 @@ export default function Illustration() {
                 />
               </g>
             </g>
-          </motion.g>
+          </g>
         </g>
+
         <defs>
           <filter
             id="filter1_bd_380_5849"
@@ -553,6 +556,7 @@ export default function Illustration() {
               result="shape"
             />
           </filter>
+
           <filter
             id="filter2_d_380_5849"
             x="278.916"
@@ -588,6 +592,7 @@ export default function Illustration() {
               result="shape"
             />
           </filter>
+
           <filter
             id="reactCard"
             x="5.33301"
@@ -629,6 +634,7 @@ export default function Illustration() {
               result="shape"
             />
           </filter>
+
           <filter
             id="NestCard"
             x="115.333"
@@ -683,6 +689,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#38384D" />
             <stop offset="0.979167" stopColor="#17171F" />
           </linearGradient>
+
           <linearGradient
             id="paint1_linear_380_5849"
             x1="8.3997"
@@ -695,6 +702,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#38384D" />
             <stop offset="0.979167" stopColor="#17171F" />
           </linearGradient>
+
           <linearGradient
             id="paint2_linear_380_5849"
             x1="0.12521"
@@ -707,6 +715,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#38384D" />
             <stop offset="0.979167" stopColor="#17171F" />
           </linearGradient>
+
           <linearGradient
             id="paint3_linear_380_5849"
             x1="0.12521"
@@ -719,6 +728,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#38384D" />
             <stop offset="0.979167" stopColor="#17171F" />
           </linearGradient>
+
           <linearGradient
             id="paint4_linear_380_5849"
             x1="0.12521"
@@ -731,6 +741,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#38384D" />
             <stop offset="0.979167" stopColor="#17171F" />
           </linearGradient>
+
           <linearGradient
             id="paint5_linear_380_5849"
             x1="356.182"
@@ -743,6 +754,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#38384D" />
             <stop offset="0.979167" stopColor="#17171F" />
           </linearGradient>
+
           <motion.linearGradient
             id="paint6_linear_380_5849"
             variants={grad5}
@@ -761,6 +773,7 @@ export default function Illustration() {
             <stop offset="0.3" stopColor="#8D8D8D"></stop>
             <stop offset="1" stopColor="#222229"></stop>
           </motion.linearGradient>
+
           <motion.linearGradient
             id="paint7_linear_380_5849"
             initial="initial"
@@ -792,6 +805,7 @@ export default function Illustration() {
             <stop offset="0.3" stopColor="#8D8D8D"></stop>
             <stop offset="1" stopColor="#222229"></stop>
           </motion.linearGradient>
+
           <linearGradient
             id="paint8_linear_380_5849"
             x1="4.3136"
@@ -804,6 +818,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#38384D" />
             <stop offset="0.979167" stopColor="#17171F" />
           </linearGradient>
+
           <linearGradient
             id="paint9_linear_380_5849"
             x1="0.897485"
@@ -816,6 +831,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#38384D" />
             <stop offset="0.979167" stopColor="#17171F" />
           </linearGradient>
+
           <linearGradient
             id="paint10_linear_380_5849"
             x1="4.52201"
@@ -863,6 +879,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#00BFFF" />
             <stop offset="0.979167" stopColor="#17171F" />
           </motion.linearGradient>
+
           <clipPath id="reactCardIcon">
             <rect
               width="52.3288"
@@ -871,6 +888,7 @@ export default function Illustration() {
               transform="matrix(0.866025 0.5 -0.866025 0.5 114.052 125.597)"
             />
           </clipPath>
+
           <clipPath id="reactCardGroup">
             <rect
               width="101"
@@ -917,6 +935,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#ED1D51" />
             <stop offset="0.979167" stopColor="#17171F" />
           </motion.linearGradient>
+
           <clipPath id="nestGroup">
             <rect
               width="101"
@@ -926,6 +945,7 @@ export default function Illustration() {
               fill="white"
             />
           </clipPath>
+
           <clipPath id="nestIcon">
             <rect
               width="52.3288"
@@ -967,6 +987,7 @@ export default function Illustration() {
             <stop offset="0.505208" stopColor="#fff" />
             <stop offset="0.979167" stopColor="#17171F" />
           </motion.linearGradient>
+
           <filter
             id="AiCard"
             x="228.051"
@@ -1008,6 +1029,7 @@ export default function Illustration() {
               result="shape"
             />
           </filter>
+
           <clipPath id="aiIcon">
             <rect
               width="42"
@@ -1036,6 +1058,7 @@ export default function Illustration() {
             <stop offset="0.3" stopColor="#80BD41"></stop>
             <stop offset="1" stopColor="#38384D"></stop>
           </motion.linearGradient>
+
           <motion.linearGradient
             variants={grad1}
             animate="animate"
@@ -1067,6 +1090,7 @@ export default function Illustration() {
             <stop offset="1" stopColor="#80BD41"></stop>
             <stop offset="1" stopColor="#38384D"></stop>
           </motion.linearGradient>
+
           <motion.linearGradient
             variants={grad5}
             transition={{
@@ -1096,6 +1120,7 @@ export default function Illustration() {
               fill="white"
             />
           </clipPath>
+
           <motion.linearGradient
             variants={{
               initial: {
@@ -1125,6 +1150,7 @@ export default function Illustration() {
             <stop offset="1" stopColor="#fff"></stop>
             <stop offset="1" stopColor="#38384D"></stop>
           </motion.linearGradient>
+
           <linearGradient id="AiBorder" x1="0%" y1="50%" x2="100%" y2="50%">
             <motion.stop
               offset="0%"
@@ -1157,6 +1183,7 @@ export default function Illustration() {
               }}
             />
           </linearGradient>
+
           {/* ---- */}
           <linearGradient
             id="paint18_linear_380_5849"
@@ -1210,6 +1237,7 @@ export default function Illustration() {
             <stop offset="1" stopColor="#38384D"></stop>
             <stop offset="1" stopColor="#00BFFF"></stop>
           </motion.linearGradient>
+
           <motion.linearGradient
             id="borderReact"
             variants={{

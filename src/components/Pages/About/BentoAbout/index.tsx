@@ -24,7 +24,7 @@ export default function BentoAbout() {
       component: <MyPhotos />,
       row: "sm:row-span-4",
       col: "col-span-4 sm:col-span-3",
-      order: "max-sm:order-3",
+      order: "max-sm:order-2",
     },
     {
       component: <MyNetwork />,
@@ -36,7 +36,7 @@ export default function BentoAbout() {
       component: <AboutMe />,
       row: "sm:row-span-11",
       col: "col-span-4 sm:col-span-6",
-      order: "max-sm:order-2",
+      order: "max-sm:order-3",
     },
     {
       component: <Expertise />,

@@ -42,16 +42,16 @@
     "description": "Serving clientes across the globe our international each knows no bounds."
   },
   "MeetupPlanner": {
-    "title": "VAMOS INOVAR JUNTOS ?",
-    "description": "Agende um bate-papo, vamos criar algo incrível juntos!"
+    "title": "LET'S INNOVATE TOGETHER?",
+    "description": "Schedule a chat, let's create something amazing together!"
   },
   "MyStackText": {
     "title": "ABOUT INNOVATION STACK",
     "description": "Harnessing the frameworks and tools defining the next wave of innovation, my work embodies a commitment to excellence in the digital realm."
   },
   "TextRevealCard": {
-    "text": "Você tem uma ideia?",
-    "revealText": "Eu trago a inovação tecnológica."
+    "text": "Do you have an idea?",
+    "revealText": "I bring technological innovation."
   },
   "Commons": {
     "contactMe": "Contact-me"
@@ -71,6 +71,7 @@
     "story": "Hello! My name is Matheus Silva, and I am a Full Stack Developer from Brazil, whose passion for programming began at the age of 12. Initially, my involvement with technology was casual, working with PHP and WordPress until I was 16.<br></br><br></br>It was at that age that I decided to seriously focus on my career, transitioning to the JavaScript ecosystem, where I specialized in tools such as React, NextJs, and NodeJs. This focus allowed me to develop innovative and scalable solutions, transforming complex ideas into impactful digital products.<br></br><br></br>Today, at 25, my career is a reflection of my commitment to innovation and technical quality. I continue to explore new technologies and methodologies to improve the systems I develop, always with the goal of exceeding market expectations. Outside of work, I am passionate about single-player games, eclectic music, and traveling, which enrich my life with new experiences and perspectives."
   },
   "SoftSkills": {
+    "Title": "What I do best?",
     "TechnicalLeadership": "Technical Leadership",
     "TechnicalLeadershipDescription": "Expertise in leading technical teams and steering the development of complex software projects.",
     "StrategicThinking": "Strategic Thinking",

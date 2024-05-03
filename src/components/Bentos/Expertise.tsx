@@ -40,7 +40,7 @@ export default function Expertise() {
 
   return (
     <AboutBentContainer>
-      <h2 className="text-2xl text-[#CCCCCC]">What I do best?</h2>
+      <h2 className="text-2xl text-[#CCCCCC]">{t("Title")}</h2>
       <div className="relative">
         <div className="absolute inset-0 flex items-center" aria-hidden="true">
           <div className="w-full border-t border-[#242424]" />

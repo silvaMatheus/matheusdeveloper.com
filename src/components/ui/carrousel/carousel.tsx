@@ -29,24 +29,6 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
           ))}
         </div>
       </div>
-
-      {/* {dotButton && (
-        <div className="mt-5 flex w-full items-center justify-center ">
-          <div className="w-8/12 rounded-md bg-[#1f1f1f]">
-            <div className="embla__dots">
-              {scrollSnaps.map((_, index) => (
-                <DotButton
-                  key={index}
-                  onClick={() => onDotButtonClick(index)}
-                  className={"embla__dot".concat(
-                    index === selectedIndex ? " embla__dot--selected" : ""
-                  )}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      )} */}
     </section>
   );
 };

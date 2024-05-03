@@ -10,7 +10,7 @@ export default function MyPhotos() {
     Autoplay({ delay: 2000, stopOnInteraction: true, loop: true })
   );
   return (
-    <div className="h-56 w-full sm:h-full sm:p-0">
+    <div className="h-56 w-full sm:h-full sm:p-0 ">
       <div
         className="flex h-full w-full flex-col rounded-xl border border-[#222229]  bg-[#171717]
      "
@@ -21,7 +21,7 @@ export default function MyPhotos() {
           onMouseEnter={plugin.current.stop}
           onMouseLeave={plugin.current.reset}
         >
-          <CarouselContent className="h-full w-full">
+          <CarouselContent className="h-full w-74 ">
             {images.map((name, index) => (
               <CarouselItem key={index} className="w-full">
                 <div className="relative inline-block h-full w-full">
@@ -30,7 +30,7 @@ export default function MyPhotos() {
                       src={`/assets/photos/${name}.jpg`}
                       alt={name}
                       fill={true}
-                      className="rounded-2xl"
+                      className="rounded-2xl w-full"
                       quality={100}
                       priority
                       loading="eager"

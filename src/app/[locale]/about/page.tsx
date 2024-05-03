@@ -1,4 +1,3 @@
-import HeroAbout from "@/components/Bentos/HeroAboutMe";
 import BentoAbout from "@/components/Pages/About/BentoAbout";
 import TechsCarousel from "@/components/Pages/About/Techs";
 import { useTranslations } from "next-intl";
@@ -14,11 +13,7 @@ export default function AboutPage({ params: { lang } }: Props) {
   const t = useTranslations("About");
 
   return (
-    <div className="max-w-screen flex w-full flex-col gap-10 sm:gap-44">
-      <section>
-        <HeroAbout />
-      </section>
-
+    <div className="max-w-screen flex w-full flex-col gap-10 sm:gap-44 pt-24">
       <section className="flex h-auto w-full flex-col items-center justify-center">
         <BentoAbout />
       </section>

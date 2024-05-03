@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import Cobe from "./cobe/cobe";
-import { Meteors } from "./meteors";
 
 export const GlowingStarsBackgroundCard = ({
   className,
@@ -21,14 +20,6 @@ export const GlowingStarsBackgroundCard = ({
       <div className={cn("h-full w-full", className)}>
         <div className="relative flex h-full w-full flex-col  items-center justify-center   sm:relative ">
           {children}
-
-          <div className="absolute h-full w-full   sm:absolute">
-            <Meteors number={60} />
-          </div>
-
-          <div className="z-9 absolute h-full w-full  sm:absolute">
-            <Illustration />
-          </div>
 
           <div className="absolute z-10 h-full w-full  sm:absolute">
             <Cobe />

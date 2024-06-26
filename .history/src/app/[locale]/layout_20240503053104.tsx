@@ -29,8 +29,6 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <script defer type="text/javascript" src="https://datapulse.app/datapulse.min.js" id="datapulse" data-endpoint="https://datapulse.app/api/v1/event" data-workspace="clxva7hl7zr3wbv31peiqt1cz"></script>
-
       <body className={`${biotif.className} no-scrollbar`}>
         <Provider>
           <main className="max-w-screen flex flex-col gap-20">

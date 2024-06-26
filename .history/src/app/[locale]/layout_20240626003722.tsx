@@ -5,7 +5,6 @@ import { unstable_setRequestLocale } from "next-intl/server";
 import localFont from "next/font/local";
 import { ReactNode } from "react";
 
-import Head from "next/head";
 import "../styles.css";
 
 const biotif = localFont({
@@ -30,10 +29,10 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
-      <Head>
-        <script defer type="text/javascript" src="https://datapulse.app/datapulse.min.js" id="datapulse" data-endpoint="https://datapulse.app/api/v1/event" data-workspace="clxva7hl7zr3wbv31peiqt1cz" />
+      <head>
+        <script defer type="text/javascript" src="https://datapulse.app/datapulse.min.js" id="datapulse" data-endpoint="https://datapulse.app/api/v1/event" data-workspace="clxva7hl7zr3wbv31peiqt1cz"></script>
 
-      </Head>
+      </head>
 
       <body className={`${biotif.className} no-scrollbar`}>
         <Provider>
